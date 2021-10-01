@@ -8,7 +8,7 @@ export default function Home() {
 	return (
 		<div>
 			<h1 className="iconGitHub">
-				<a href="https://github.com/ChadProbert" target="_blank">
+				<a href="https://github.com/ChadProbert/Minesweeper-React-App" target="_blank">
 					{iconGitHub}
 				</a>
 			</h1>
