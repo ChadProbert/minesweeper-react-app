@@ -1,0 +1,143 @@
+.app {
+	text-align: center;
+}
+
+.headingMinesweeper {
+	color: white;
+	font-size: 80px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.divHeader {
+	margin: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(255, 255, 255, 0.253);
+}
+
+/* overriding bootstrap config using !important */
+.buttonHowToPlay {
+	/* changes the cursor to the the help pointer when hovering over the button */
+	cursor: help !important;
+}
+Button {
+	/* changing all button text to uppercase */
+	text-transform: uppercase;
+	margin: 10px;
+}
+
+.headingHelp {
+	color: white;
+	font-weight: bold;
+	font-size: 50px;
+	padding: 20px;
+	padding-bottom: 40px;
+}
+
+.divHelp {
+	/* added a floating transparent background effect */
+	background-color: rgba(255, 255, 255, 0.253);
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-bottom: 100px;
+
+	padding-top: 40px;
+	padding-bottom: 40px;
+	font-family: cursive;
+}
+
+.headingAimOfGame,
+.headingInstructions {
+	font-family: cursive;
+	font-weight: bold;
+	color: white;
+	font-size: 35px;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+.paragraphAimOfGame,
+.paragraphInstructions {
+	color: white;
+	font-size: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+}
+
+.clear {
+	clear: both;
+}
+
+.game {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgb(119, 119, 119);
+	margin-top: 20px;
+}
+/* styling on the div around game information */
+.game-info {
+	margin-bottom: 20px;
+	padding: 7px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+/* spacing added on game information text */
+.info {
+	display: block;
+	margin-top: 15px;
+}
+
+.cell {
+	background: rgb(204, 199, 199);
+	border: 1px solid #000000;
+	border-radius: 4px;
+	float: left;
+	line-height: 45px;
+	height: 45px;
+	text-align: center;
+	width: 45px;
+	cursor: pointer;
+	color: #003cff;
+	font-weight: bolder;
+}
+
+/* styling of the cells when not revealed */
+.hidden {
+	background: #f8f9fa;
+}
+
+.buttonTryAgain {
+	margin-top: 20px;
+	margin-bottom: 100px;
+}
+
+/* change positioning of icon */
+.iconGitHub {
+	margin-top: 150px;
+}
+
+/* change color of icon */
+a {
+	color: rgb(255, 255, 255);
+}
+
+/* change color of icon when hovered over */
+a:hover {
+	color: rgba(255, 0, 221, 0.452);
+}
+
+/* References
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/cursor
+
+https://www.w3schools.com/cssref/pr_text_text-transform.asp
+
+https://stackoverflow.com/questions/44449372/override-bootstrap-important
+
+https://codeburst.io/learning-react-js-by-building-a-minesweeper-game-ced9d41560ed
+
+*/
