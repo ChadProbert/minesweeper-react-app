@@ -27,6 +27,7 @@ This is a React App that I built for one of my Capstone Projects through Hyperio
 
 1. Open the command line from the desktop
 2. Change the directory to the react app by typing "cd minesweeper-react-app" into the command line and press 'Enter'
-3. Type npm start into the terminal/command line and press 'Enter'
-4. Your browser will then run the React Application from your local machine
-5. Running the application complete
+3. Type "npm install" into the terminal/command line and press 'Enter'
+4. Type "npm start" into the terminal/command line and press 'Enter'
+5. Your browser will then run the React Application from your local machine
+6. Running the application complete
